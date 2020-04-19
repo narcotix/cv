@@ -11,3 +11,7 @@ border-top-style: dotted;
 width: 5%;
 border-color: white;
 }
+
+img{
+  border-radius: 300px;
+}
