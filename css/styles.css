@@ -1,17 +1,62 @@
 body {
-  background-color: black;
-  color: white;
+  margin: 0 auto;
+  text-align: center;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
-hr{
-background-color: black;
-border-style: none;
-border-width: 5px;
-border-top-style: dotted;
-width: 5%;
-border-color: white;
+h1 {
+  font-family: 'Sacramento', cursive;
 }
 
-img{
-  border-radius: 300px;
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topContainer {
+  background-color: #77d8d8;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middleContainer {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+.bottomContainer {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+.Raho {
+  text-decoration: underline;
+}
+
+.topCloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.mug{
+  height: 300px;
+  width: 300px;
+  border-radius:500px;
+}
+
+.email{
+  height: 300px;
+  width: 300px;
 }
