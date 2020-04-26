@@ -1,64 +1,113 @@
-body {
-  margin: 0 auto;
+
+body{
+  font-family: 'Montserrat' ,sans-serif;
+}
+
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: Bold;
+}
+
+h3{
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+.container-fluid{
+  padding:3% 15%;
+}
+
+
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 15px;
+}
+
+.nav-link{
+  font-family: 'Montserrat-light';
+  font-size: 1.2rem;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 60%;
+  transform: rotate(20deg);
+}
+
+.container{
+  margin-top: 50px;
+}
+
+.same-colum{
+  width: 250px;
   text-align: center;
-  font-family: 'Merriweather Sans', sans-serif;
+
+
 }
 
-h1 {
-  font-family: 'Sacramento', cursive;
-  font-size: 5.62em;
+.fas{
+  font-size: 4.5rem;
+  padding: 2rem;
+  color: #ef8172;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem
+.fas:hover{
+  color: #ff4c68;
 }
 
-h3 {
-  font-family: 'Montserrat', sans-serif;
+p{
+  color: #8f8f8f;
 }
 
-.topContainer {
-  background-color: #77d8d8;
-  position: relative;
-  padding-top: 100px;
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+
 }
 
-.middleContainer {
-  height: 200px;
-  width: 200px;
-  background-color: red;
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+
 }
 
-.bottomContainer {
-  height: 200px;
-  width: 200px;
-  background-color: blue;
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
 }
 
-.Raho {
-  text-decoration: underline;
-}
-
-.topCloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-
-.bottomCloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-}
-
-.mug{
-  height: 300px;
-  width: 300px;
-  border-radius:500px;
-}
-
-.email{
-  height: 300px;
-  width: 300px;
+.press-images{
+  width: 15%;
+  margin: 20px 20px 50px;
 }
