@@ -59,6 +59,9 @@ h3{
 .title-image{
   width: 60%;
   transform: rotate(20deg);
+  position: absolute;
+  right: 20%;
+
 }
 
 .container{
@@ -87,11 +90,15 @@ p{
 }
 
 #testimonials{
-  padding: 7% 15%;
+
   text-align: center;
   background-color: #ff4c68;
   color: #fff;
 
+}
+
+.carousel-item{
+    padding: 7% 15%;
 }
 
 .testimonial-image{
@@ -110,4 +117,61 @@ p{
 .press-images{
   width: 15%;
   margin: 20px 20px 50px;
+}
+ #pricing{
+   padding: 100px;
+ }
+
+.pricing-colum {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+#features{
+  background-color: #fff;
+  position:relative;
+  z-index: 1;
+}
+
+#cta{
+  background-color:#ff4c68;
+  text-align:center;
+}
+
+.h3-title{
+  font-size: 2.0rem;
+  font-family: "Montserrat-Bold";
+  color: #fff;
+  margin: 30px;
+}
+
+.button-load{
+  margin: 10px;
+}
+
+.social-box{
+  disply: inline-block;
+}
+
+.social{
+  font-size: 1rem;
+  color: black;
+  margin: 10px;
+}
+
+#footer{
+  text-align: center;
+  margin: 100px;
+}
+
+@media (max-width: 1028px){
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
 }
